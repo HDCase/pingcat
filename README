@@ -1,0 +1,25 @@
+ _______ _________ _        _______  _______  _______ _________
+(  ____ )\__   __/( (    /|(  ____ \(  ____ \(  ___  )\__   __/
+| (    )|   ) (   |  \  ( || (    \/| (    \/| (   ) |   ) (   
+| (____)|   | |   |   \ | || |      | |      | (___) |   | |   
+|  _____)   | |   | (\ \) || | ____ | |      |  ___  |   | |   
+| (         | |   | | \   || | \_  )| |      | (   ) |   | |   
+| )      ___) (___| )  \  || (___) || (____/\| )   ( |   | |   
+|/       \_______/|/    )_)(_______)(_______/|/     \|   )_(  
+
+Pingcat is utility simmilar to netcat but transmits its data over
+icmp packets, useful for circumventing firewalls.
+
+To install run
+sudo ./install.sh
+
+You must have these dependencies for pingcat to work:
+dpkt
+pylibpcap
+python
+
+Test system:
+Xubuntu 11.04(linux)
+python 2.7
+dpkt 1.7
+pylibpcap 0.6.2
